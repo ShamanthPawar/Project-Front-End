@@ -1,0 +1,79 @@
+<div class="container mt text-center">
+  <p>Login Successful!</p>
+  <h1><b>Welcome to Dashboard!</b></h1>
+</div>
+
+<div class="row">
+  <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="/assets/sports.png" alt="Card image cap" />
+      <div class="card-body d-flex flex-column">
+        <h2 class="card-title">Sports</h2>
+        <ul class="card-text">
+          <li>View list of Sports</li>
+          <li>Search Sport by name</li>
+        </ul>
+        <a routerLink="/dashboard/sports" class="btn mt-auto btn-success"
+          >Go to Sports page</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="/assets/events.png" alt="Card image cap" />
+      <div class="card-body d-flex flex-column">
+        <h2 class="card-title">Events</h2>
+        <ul class="card-text">
+          <li>Create/update/cancel any events</li>
+          <li>View all Events and search by id/name</li>
+        </ul>
+        <a routerLink="/dashboard/events" class="btn mt-auto btn-primary"
+          >Go to Events page</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="/assets/players.png"
+        alt="Card image cap"
+      />
+      <div class="card-body d-flex flex-column">
+        <h2 class="card-title">Players</h2>
+        <ul class="card-text">
+          <li>View all the players</li>
+          <li>Get details for a new player</li>
+          <li>Remove the players based on id</li>
+        </ul>
+        <a routerLink="/dashboard/players" class="btn mt-auto btn-warning"
+          >Go to Players page</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="/assets/participants.png"
+        alt="Card image cap"
+      />
+      <div class="card-body d-flex flex-column">
+        <h2 class="card-title">Participants</h2>
+        <ul class="card-text">
+          <li>Request for participation</li>
+          <li>View/update participation request</li>
+          <li>
+            List them based on approved/declined/pending status separately.
+          </li>
+        </ul>
+        <a routerLink="/dashboard/participants" class="btn mt-auto btn-danger"
+          >Go to Participants page</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
